@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
         <Route component={AllPosts} path="/" exact />
-        <Route component={OnePost} path="/:slug" exact />
+        <Route component={OnePost} path="/:slug" />
     </BrowserRouter>
   );
 }

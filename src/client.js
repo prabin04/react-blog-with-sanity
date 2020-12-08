@@ -1,6 +1,6 @@
-import sanityClinet from '@sanity/client';
+import sanityClient from '@sanity/client'
 
-export default: sanityClinet{
+export default sanityClient({
     projectId: "zyvfjpri",
-    dataset: "proeduction"
-}
+    dataset: "production"
+})
