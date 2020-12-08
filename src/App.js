@@ -1,11 +1,13 @@
 import React from 'react'
-import {BrowserRouter, Router} from 'react-router-dom'
+import {BrowserRouter, Route} from 'react-router-dom'
+import AllPosts from './components/AllPosts.js'
+import OnePost from './components/OnePost.js'
 
 function App() {
   return (
     <BrowserRouter>
-        <Route component={AllPosts} path="/path" exact />
-        <Route component={OnePost} path="/:slug" exact />
+        <Route component={AllPosts} path="/" exact />
+        <Route component={OnePost} path="/onepost" exact />
     </BrowserRouter>
   );
 }
