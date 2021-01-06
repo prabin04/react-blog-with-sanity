@@ -2,6 +2,7 @@
   "name": "react_blog_with_sanity",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://blog.beststrompris.no",
   "dependencies": {
     "@sanity/block-content-to-react": "^2.0.7",
     "@sanity/client": "^2.1.0",

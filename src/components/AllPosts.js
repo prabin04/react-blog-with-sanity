@@ -24,8 +24,7 @@ export default function AllPosts()  {
     return (
         <div className="bg-green-100 min-h-screen p-12">
         <div className="container mx-auto">
-            <h2 className="text-5xl flex justify-center"> Blog Posts!</h2>
-            <h3 className="text-lg text-gray-600 flex justify-center mb-12">Welcome to my blog posts page!</h3>
+            <h2 className="text-5xl flex mb-12 justify-center"> Blog Posts!</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {allPostsData &&
                 allPostsData.map((post,index)=>
